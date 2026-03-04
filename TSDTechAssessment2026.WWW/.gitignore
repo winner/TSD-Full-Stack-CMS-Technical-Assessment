@@ -480,3 +480,10 @@ umbraco-package-schema.json
 
 # Media files
 /wwwroot/media/
+
+# Node.js
+npm-debug.log*
+yarn-error.log*
+
+# Compiled CSS (generated from Sass)
+/wwwroot/css/

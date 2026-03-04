@@ -1,0 +1,13 @@
+{
+  "name": "tsdtechassessment2026-www",
+  "version": "1.0.0",
+  "description": "Umbraco WWW project with Sass support",
+  "scripts": {
+    "sass": "sass wwwroot/scss:wwwroot/css --no-source-map",
+    "sass:watch": "sass wwwroot/scss:wwwroot/css --watch --no-source-map",
+    "sass:build": "sass wwwroot/scss:wwwroot/css --style=compressed --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

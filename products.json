@@ -1,0 +1,749 @@
+{
+  "products": [
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "name": "Wireless Gaming Mouse",
+      "category": "Electronics",
+      "description": "High-precision wireless gaming mouse with RGB lighting",
+      "currency": "GBP",
+      "images": ["/images/gaming-mouse-1.jpg", "/images/gaming-mouse-2.jpg"],
+      "sku": "WIRELESS-GAMING-MOUSE",
+      "variants": [
+        {
+          "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+          "name": "Black",
+          "sku": "WIRELESS-GAMING-MOUSE-BLK",
+          "stock": 45,
+          "price": 59.99,
+          "active": true
+        },
+        {
+          "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+          "name": "White",
+          "sku": "WIRELESS-GAMING-MOUSE-WHT",
+          "stock": 12,
+          "price": 59.99,
+          "active": true
+        }
+      ],
+      "brand": "TechGear",
+      "rating": 4.5,
+      "reviewCount": 128,
+      "active": true
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "name": "Organic Cotton T-Shirt",
+      "category": "Clothing",
+      "description": "100% organic cotton, sustainable and comfortable",
+      "currency": "GBP",
+      "images": ["/images/tshirt-navy.jpg"],
+      "sku": "ORGANIC-COTTON-TSHIRT",
+      "variants": [
+        {
+          "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+          "name": "Small - Navy",
+          "sku": "ORGANIC-COTTON-TSHIRT-SM-NAV",
+          "stock": 0,
+          "price": 18.99,
+          "active": false
+        },
+        {
+          "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+          "name": "Medium - Navy",
+          "sku": "ORGANIC-COTTON-TSHIRT-MD-NAV",
+          "stock": 0,
+          "price": 18.99,
+          "active": false
+        },
+        {
+          "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+          "name": "Large - Navy",
+          "sku": "ORGANIC-COTTON-TSHIRT-LG-NAV",
+          "stock": 8,
+          "price": 18.99,
+          "active": true
+        }
+      ],
+      "brand": "EcoWear",
+      "rating": 4.7,
+      "reviewCount": 342,
+      "active": true
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "description": "Insulated 32oz water bottle, keeps drinks cold for 24 hours",
+      "price": 26.50,
+      "currency": "GBP",
+      "stock": 156,
+      "sku": "STAINLESS-STEEL-WATER-BOTTLE-32OZ",
+      "images": ["/images/water-bottle.jpg"],
+      "brand": "HydroLife",
+      "rating": 4.8,
+      "reviewCount": 892,
+      "active": true
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+      "name": "Mechanical Keyboard RGB",
+      "category": "Electronics",
+      "description": "Cherry MX switches, full RGB backlighting",
+      "currency": "GBP",
+      "images": ["/images/keyboard-1.jpg", "/images/keyboard-2.jpg", "/images/keyboard-3.jpg"],
+      "sku": "MECHANICAL-KEYBOARD-RGB",
+      "variants": [
+        {
+          "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+          "name": "Cherry MX Brown",
+          "sku": "MECHANICAL-KEYBOARD-RGB-BROWN",
+          "stock": 3,
+          "price": 99.99,
+          "active": true
+        },
+        {
+          "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+          "name": "Cherry MX Red",
+          "sku": "MECHANICAL-KEYBOARD-RGB-RED",
+          "stock": 18,
+          "price": 99.99,
+          "active": true
+        },
+        {
+          "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+          "name": "Cherry MX Blue",
+          "sku": "MECHANICAL-KEYBOARD-RGB-BLUE",
+          "stock": 0,
+          "price": 99.99,
+          "active": false
+        }
+      ],
+      "brand": "TechGear",
+      "rating": 4.6,
+      "reviewCount": 567,
+      "active": true
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+      "name": "Yoga Mat Premium",
+      "category": "Sports & Outdoors",
+      "description": "6mm thick, non-slip surface, eco-friendly materials",
+      "price": 36.00,
+      "currency": "GBP",
+      "stock": 89,
+      "sku": "YOGA-MAT-PREMIUM-6MM",
+      "images": ["/images/yoga-mat-purple.jpg"],
+      "brand": "ZenFit",
+      "rating": 4.4,
+      "reviewCount": 203,
+      "active": true
+    },
+    {
+      "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+      "name": "Coffee Maker Pro",
+      "category": "Home & Kitchen",
+      "description": "Programmable 12-cup coffee maker with thermal carafe",
+      "price": 68.99,
+      "currency": "GBP",
+      "stock": 0,
+      "sku": "COFFEE-MAKER-PRO-12CUP",
+      "images": ["/images/coffee-maker.jpg"],
+      "brand": "BrewMaster",
+      "rating": 4.3,
+      "reviewCount": 456,
+      "active": false
+    },
+    {
+      "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+      "name": "Running Shoes Elite",
+      "category": "Clothing",
+      "description": "Lightweight running shoes with advanced cushioning technology",
+      "currency": "GBP",
+      "images": ["/images/running-shoes-blue.jpg", "/images/running-shoes-side.jpg"],
+      "sku": "RUNNING-SHOES-ELITE",
+      "variants": [
+        {
+          "id": "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+          "name": "Size 8 - Blue",
+          "sku": "RUNNING-SHOES-ELITE-UK8-BLUE",
+          "stock": 5,
+          "price": 110.00,
+          "active": true
+        },
+        {
+          "id": "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+          "name": "Size 9 - Blue",
+          "sku": "RUNNING-SHOES-ELITE-UK9-BLUE",
+          "stock": 12,
+          "price": 110.00,
+          "active": true
+        },
+        {
+          "id": "1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
+          "name": "Size 10 - Blue",
+          "sku": "RUNNING-SHOES-ELITE-UK10-BLUE",
+          "stock": 25,
+          "price": 110.00,
+          "active": true
+        },
+        {
+          "id": "2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c",
+          "name": "Size 11 - Blue",
+          "sku": "RUNNING-SHOES-ELITE-UK11-BLUE",
+          "stock": 18,
+          "price": 110.00,
+          "active": true
+        },
+        {
+          "id": "3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
+          "name": "Size 10 - Red",
+          "sku": "RUNNING-SHOES-ELITE-UK10-RED",
+          "stock": 7,
+          "price": 110.00,
+          "active": true
+        }
+      ],
+      "brand": "RunFast",
+      "rating": 4.7,
+      "reviewCount": 731,
+      "active": true
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+      "name": "Wireless Earbuds Pro",
+      "category": "Electronics",
+      "description": "Active noise cancellation, 8-hour battery life",
+      "price": 149.99,
+      "currency": "GBP",
+      "stock": 234,
+      "sku": "WIRELESS-EARBUDS-PRO-ANC",
+      "images": ["/images/earbuds-1.jpg"],
+      "brand": "AudioTech",
+      "rating": 4.6,
+      "reviewCount": 1024,
+      "active": true
+    },
+    {
+      "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+      "name": "Laptop Backpack",
+      "category": "Accessories",
+      "description": "Water-resistant backpack with padded laptop compartment up to 17 inches",
+      "currency": "GBP",
+      "images": ["/images/backpack-grey.jpg", "/images/backpack-open.jpg"],
+      "sku": "LAPTOP-BACKPACK-17IN",
+      "variants": [
+        {
+          "id": "4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e",
+          "name": "Grey",
+          "sku": "LAPTOP-BACKPACK-17IN-GREY",
+          "stock": 2,
+          "price": 45.99,
+          "active": true
+        },
+        {
+          "id": "5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f",
+          "name": "Black",
+          "sku": "LAPTOP-BACKPACK-17IN-BLACK",
+          "stock": 15,
+          "price": 45.99,
+          "active": true
+        }
+      ],
+      "brand": "TravelGear",
+      "rating": 4.5,
+      "reviewCount": 289,
+      "active": true
+    },
+    {
+      "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+      "name": "Smart Watch Fitness",
+      "category": "Electronics",
+      "description": "Heart rate monitor, GPS tracking, waterproof design",
+      "price": 189.99,
+      "currency": "GBP",
+      "stock": 0,
+      "sku": "SMART-WATCH-FITNESS-GPS",
+      "images": ["/images/smartwatch-black.jpg"],
+      "brand": "FitTech",
+      "rating": 4.4,
+      "reviewCount": 612,
+      "active": false
+    },
+    {
+      "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+      "name": "Blender Ultra Power",
+      "category": "Home & Kitchen",
+      "description": "1500W professional blender with multiple speed settings",
+      "price": 89.00,
+      "currency": "GBP",
+      "stock": 44,
+      "sku": "BLENDER-ULTRA-POWER-1500W",
+      "images": ["/images/blender-red.jpg"],
+      "brand": "KitchenPro",
+      "rating": 4.7,
+      "reviewCount": 387,
+      "active": true
+    },
+    {
+      "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+      "name": "Denim Jeans Classic",
+      "category": "Clothing",
+      "description": "Classic fit denim jeans, 100% cotton",
+      "currency": "GBP",
+      "images": ["/images/jeans-blue.jpg"],
+      "sku": "DENIM-JEANS-CLASSIC",
+      "variants": [
+        {
+          "id": "6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a",
+          "name": "30x30",
+          "sku": "DENIM-JEANS-CLASSIC-30W-30L",
+          "stock": 8,
+          "price": 52.99,
+          "active": true
+        },
+        {
+          "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+          "name": "32x30",
+          "sku": "DENIM-JEANS-CLASSIC-32W-30L",
+          "stock": 15,
+          "price": 52.99,
+          "active": true
+        },
+        {
+          "id": "8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c",
+          "name": "32x32",
+          "sku": "DENIM-JEANS-CLASSIC-32W-32L",
+          "stock": 22,
+          "price": 52.99,
+          "active": true
+        },
+        {
+          "id": "9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
+          "name": "34x32",
+          "sku": "DENIM-JEANS-CLASSIC-34W-32L",
+          "stock": 28,
+          "price": 52.99,
+          "active": true
+        },
+        {
+          "id": "0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+          "name": "34x34",
+          "sku": "DENIM-JEANS-CLASSIC-34W-34L",
+          "stock": 18,
+          "price": 52.99,
+          "active": true
+        },
+        {
+          "id": "1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f",
+          "name": "36x32",
+          "sku": "DENIM-JEANS-CLASSIC-36W-32L",
+          "stock": 12,
+          "price": 52.99,
+          "active": true
+        }
+      ],
+      "brand": "UrbanDenim",
+      "rating": 4.3,
+      "reviewCount": 445,
+      "active": true
+    },
+    {
+      "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+      "name": "Camping Tent 4-Person",
+      "category": "Sports & Outdoors",
+      "description": "Waterproof 4-person tent with easy setup",
+      "price": 144.99,
+      "currency": "GBP",
+      "stock": 18,
+      "sku": "CAMPING-TENT-4PERSON-WATERPROOF",
+      "images": ["/images/tent-green.jpg", "/images/tent-setup.jpg"],
+      "brand": "OutdoorLife",
+      "rating": 4.6,
+      "reviewCount": 156,
+      "active": true
+    },
+    {
+      "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
+      "name": "Office Chair Ergonomic",
+      "category": "Furniture",
+      "description": "Adjustable lumbar support, breathable mesh back",
+      "price": 229.00,
+      "currency": "GBP",
+      "stock": 1,
+      "sku": "OFFICE-CHAIR-ERGONOMIC-MESH",
+      "images": ["/images/office-chair.jpg"],
+      "brand": "ComfortSeating",
+      "rating": 4.8,
+      "reviewCount": 823,
+      "active": true
+    },
+    {
+      "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+      "name": "Skincare Set Deluxe",
+      "category": "Beauty",
+      "description": "Complete skincare routine with cleanser, toner, and moisturizer",
+      "price": 64.99,
+      "currency": "GBP",
+      "stock": 67,
+      "sku": "SKINCARE-SET-DELUXE-COMPLETE",
+      "images": ["/images/skincare-set.jpg"],
+      "brand": "GlowBeauty",
+      "rating": 4.5,
+      "reviewCount": 291,
+      "active": true
+    },
+    {
+      "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+      "name": "Wireless Charger Fast",
+      "category": "Electronics",
+      "description": "15W fast wireless charging pad, Qi-compatible",
+      "price": 22.99,
+      "currency": "GBP",
+      "stock": 0,
+      "sku": "WIRELESS-CHARGER-FAST-15W",
+      "images": ["/images/wireless-charger.jpg"],
+      "brand": "ChargeTech",
+      "rating": 4.2,
+      "reviewCount": 178,
+      "active": true
+    },
+    {
+      "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
+      "name": "Protein Powder",
+      "category": "Health & Wellness",
+      "description": "Whey protein isolate, 25g protein per serving",
+      "currency": "GBP",
+      "images": ["/images/protein-chocolate.jpg"],
+      "sku": "PROTEIN-POWDER-WHEY",
+      "variants": [
+        {
+          "id": "2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a",
+          "name": "2lb - Chocolate",
+          "sku": "PROTEIN-POWDER-WHEY-2LB-CHOC",
+          "stock": 89,
+          "price": 37.99,
+          "active": true
+        },
+        {
+          "id": "3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b",
+          "name": "5lb - Chocolate",
+          "sku": "PROTEIN-POWDER-WHEY-5LB-CHOC",
+          "stock": 45,
+          "price": 75.99,
+          "active": true
+        },
+        {
+          "id": "4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c",
+          "name": "2lb - Vanilla",
+          "sku": "PROTEIN-POWDER-WHEY-2LB-VAN",
+          "stock": 67,
+          "price": 37.99,
+          "active": true
+        },
+        {
+          "id": "5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d",
+          "name": "5lb - Vanilla",
+          "sku": "PROTEIN-POWDER-WHEY-5LB-VAN",
+          "stock": 33,
+          "price": 75.99,
+          "active": true
+        }
+      ],
+      "brand": "PowerFit",
+      "rating": 4.6,
+      "reviewCount": 1247,
+      "active": true
+    },
+    {
+      "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
+      "name": "LED Desk Lamp",
+      "category": "Home & Kitchen",
+      "description": "Adjustable brightness, USB charging port, touch control",
+      "price": 30.99,
+      "currency": "GBP",
+      "stock": 5,
+      "sku": "LED-DESK-LAMP-USB-TOUCH",
+      "images": ["/images/desk-lamp-white.jpg"],
+      "brand": "BrightLight",
+      "rating": 4.4,
+      "reviewCount": 512,
+      "active": true
+    },
+    {
+      "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d",
+      "name": "Winter Jacket Insulated",
+      "category": "Clothing",
+      "description": "Down-filled winter jacket, water-resistant outer shell",
+      "currency": "GBP",
+      "images": ["/images/winter-jacket.jpg"],
+      "sku": "WINTER-JACKET-INSULATED",
+      "variants": [
+        {
+          "id": "6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e",
+          "name": "Small - Black",
+          "sku": "WINTER-JACKET-INSULATED-SM-BLK",
+          "stock": 0,
+          "price": 136.99,
+          "active": false
+        },
+        {
+          "id": "7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+          "name": "Medium - Black",
+          "sku": "WINTER-JACKET-INSULATED-MD-BLK",
+          "stock": 0,
+          "price": 136.99,
+          "active": false
+        },
+        {
+          "id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+          "name": "Large - Black",
+          "sku": "WINTER-JACKET-INSULATED-LG-BLK",
+          "stock": 0,
+          "price": 136.99,
+          "active": false
+        },
+        {
+          "id": "9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+          "name": "Medium - Navy",
+          "sku": "WINTER-JACKET-INSULATED-MD-NAV",
+          "stock": 3,
+          "price": 136.99,
+          "active": true
+        }
+      ],
+      "brand": "WarmGear",
+      "rating": 4.7,
+      "reviewCount": 389,
+      "active": true
+    },
+    {
+      "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
+      "name": "Gaming Headset 7.1",
+      "category": "Electronics",
+      "description": "Surround sound gaming headset with noise-cancelling mic",
+      "price": 68.99,
+      "currency": "GBP",
+      "stock": 78,
+      "sku": "GAMING-HEADSET-71-SURROUND",
+      "images": ["/images/gaming-headset.jpg"],
+      "brand": "TechGear",
+      "rating": 4.5,
+      "reviewCount": 634,
+      "active": true
+    },
+    {
+      "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+      "name": "Cookware Set Stainless",
+      "category": "Home & Kitchen",
+      "description": "10-piece stainless steel cookware set, dishwasher safe",
+      "price": 152.99,
+      "currency": "GBP",
+      "stock": 31,
+      "sku": "COOKWARE-SET-STAINLESS-10PC",
+      "images": ["/images/cookware-set.jpg"],
+      "brand": "ChefPro",
+      "rating": 4.8,
+      "reviewCount": 467,
+      "active": true
+    },
+    {
+      "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a",
+      "name": "Sunglasses Polarized",
+      "category": "Accessories",
+      "description": "UV400 protection, polarized lenses, stylish design",
+      "currency": "GBP",
+      "images": ["/images/sunglasses-black.jpg"],
+      "sku": "SUNGLASSES-POLARIZED",
+      "variants": [
+        {
+          "id": "0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+          "name": "Black Frame",
+          "sku": "SUNGLASSES-POLARIZED-BLACK",
+          "stock": 89,
+          "price": 59.00,
+          "active": true
+        },
+        {
+          "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+          "name": "Tortoise Frame",
+          "sku": "SUNGLASSES-POLARIZED-TORT",
+          "stock": 67,
+          "price": 59.00,
+          "active": true
+        }
+      ],
+      "brand": "SunStyle",
+      "rating": 4.3,
+      "reviewCount": 234,
+      "active": true
+    },
+    {
+      "id": "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b",
+      "name": "Electric Toothbrush",
+      "category": "Health & Wellness",
+      "description": "Rechargeable electric toothbrush with 3 cleaning modes",
+      "price": 52.99,
+      "currency": "GBP",
+      "stock": 0,
+      "sku": "ELECTRIC-TOOTHBRUSH-RECHARGEABLE",
+      "images": ["/images/toothbrush-blue.jpg"],
+      "brand": "SmileClean",
+      "rating": 4.6,
+      "reviewCount": 789,
+      "active": false
+    },
+    {
+      "id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c",
+      "name": "Dumbbells Adjustable Set",
+      "category": "Sports & Outdoors",
+      "description": "5-50lb adjustable dumbbell set, space-saving design",
+      "price": 251.99,
+      "currency": "GBP",
+      "stock": 12,
+      "sku": "DUMBBELLS-ADJUSTABLE-5-50LB",
+      "images": ["/images/dumbbells.jpg"],
+      "brand": "IronFit",
+      "rating": 4.7,
+      "reviewCount": 523,
+      "active": true
+    },
+    {
+      "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d",
+      "name": "Air Purifier HEPA",
+      "category": "Home & Kitchen",
+      "description": "True HEPA filter, covers up to 500 sq ft, quiet operation",
+      "price": 121.99,
+      "currency": "GBP",
+      "stock": 4,
+      "sku": "AIR-PURIFIER-HEPA-500SQFT",
+      "images": ["/images/air-purifier.jpg"],
+      "brand": "CleanAir",
+      "rating": 4.5,
+      "reviewCount": 678,
+      "active": true
+    },
+    {
+      "id": "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e",
+      "name": "Hoodie Fleece Premium",
+      "category": "Clothing",
+      "description": "Soft fleece hoodie with kangaroo pocket",
+      "currency": "GBP",
+      "images": ["/images/hoodie-grey.jpg"],
+      "sku": "HOODIE-FLEECE-PREMIUM",
+      "variants": [
+        {
+          "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+          "name": "Small - Grey",
+          "sku": "HOODIE-FLEECE-PREMIUM-SM-GREY",
+          "stock": 34,
+          "price": 41.99,
+          "active": true
+        },
+        {
+          "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+          "name": "Medium - Grey",
+          "sku": "HOODIE-FLEECE-PREMIUM-MD-GREY",
+          "stock": 56,
+          "price": 41.99,
+          "active": true
+        },
+        {
+          "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+          "name": "Large - Grey",
+          "sku": "HOODIE-FLEECE-PREMIUM-LG-GREY",
+          "stock": 67,
+          "price": 41.99,
+          "active": true
+        },
+        {
+          "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+          "name": "XL - Grey",
+          "sku": "HOODIE-FLEECE-PREMIUM-XL-GREY",
+          "stock": 41,
+          "price": 41.99,
+          "active": true
+        }
+      ],
+      "brand": "CozyWear",
+      "rating": 4.6,
+      "reviewCount": 891,
+      "active": true
+    },
+    {
+      "id": "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f",
+      "name": "Portable Speaker Bluetooth",
+      "category": "Electronics",
+      "description": "Waterproof Bluetooth speaker, 20-hour battery life",
+      "price": 45.99,
+      "currency": "GBP",
+      "stock": 112,
+      "sku": "PORTABLE-SPEAKER-BT-WATERPROOF",
+      "images": ["/images/speaker-black.jpg"],
+      "brand": "SoundWave",
+      "rating": 4.4,
+      "reviewCount": 456,
+      "active": true
+    },
+    {
+      "id": "d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a",
+      "name": "Throw Blanket Knit",
+      "category": "Home & Kitchen",
+      "description": "Soft knit throw blanket, 50x60 inches",
+      "currency": "GBP",
+      "images": ["/images/blanket-beige.jpg"],
+      "sku": "THROW-BLANKET-KNIT-50X60",
+      "variants": [
+        {
+          "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+          "name": "Beige",
+          "sku": "THROW-BLANKET-KNIT-50X60-BEIGE",
+          "stock": 6,
+          "price": 34.99,
+          "active": true
+        },
+        {
+          "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+          "name": "Navy",
+          "sku": "THROW-BLANKET-KNIT-50X60-NAVY",
+          "stock": 2,
+          "price": 34.99,
+          "active": true
+        },
+        {
+          "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+          "name": "Grey",
+          "sku": "THROW-BLANKET-KNIT-50X60-GREY",
+          "stock": 9,
+          "price": 34.99,
+          "active": true
+        }
+      ],
+      "brand": "HomeCozy",
+      "rating": 4.7,
+      "reviewCount": 312,
+      "active": true
+    },
+    {
+      "id": "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c",
+      "name": "Monitor 27-inch 4K",
+      "category": "Electronics",
+      "description": "27-inch 4K UHD monitor, IPS panel, 60Hz refresh rate",
+      "price": 267.99,
+      "currency": "GBP",
+      "stock": 28,
+      "sku": "MONITOR-27IN-4K-IPS-60HZ",
+      "images": ["/images/monitor-27.jpg"],
+      "brand": "DisplayPro",
+      "rating": 4.6,
+      "reviewCount": 734,
+      "active": true
+    }
+  ],
+  "metadata": {
+    "totalProducts": 30,
+    "generated": "2026-03-04",
+    "version": "1.0",
+    "currency": "GBP"
+  }
+}

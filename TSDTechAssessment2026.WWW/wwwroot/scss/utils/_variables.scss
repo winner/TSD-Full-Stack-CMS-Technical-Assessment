@@ -1,0 +1,27 @@
+// Colors
+$color-primary: #3498db !default;
+$color-secondary: #2ecc71 !default;
+$color-text: #333 !default;
+$color-background: #fff !default;
+$color-border: #ddd !default;
+$color-white: #fff !default;
+$color-black: #000 !default;
+
+// Spacing
+$spacing-unit: 1rem !default;
+$spacing-small: 0.5rem !default;
+$spacing-medium: 1.5rem !default;
+$spacing-large: 2rem !default;
+
+// Typography
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-size-base: 1rem !default;
+$font-size-small: 0.875rem !default;
+$font-size-large: 1.25rem !default;
+$line-height-base: 1.5 !default;
+
+// Breakpoints
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;

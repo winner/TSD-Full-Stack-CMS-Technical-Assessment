@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="TSDTechAssessment2026.API/TSDTechAssessment2026.API.csproj" />
   <Project Path="TSDTechAssessment2026.WWW/TSDTechAssessment2026.WWW.csproj" />
 </Solution>

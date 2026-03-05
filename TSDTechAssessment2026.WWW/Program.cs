@@ -1,4 +1,22 @@
+using TSDTechAssessment2026.WWW.Services;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpClient<IProductApiClient, ProductApiClient>(client =>
+{
+    var baseUrl = builder.Configuration["ProductApi:BaseUrl"]
+        ?? "https://localhost:7294";
+    client.BaseAddress = new Uri(baseUrl);
+}).ConfigurePrimaryHttpMessageHandler(() =>
+{
+    var handler = new HttpClientHandler();
+    if (builder.Environment.IsDevelopment())
+    {
+        handler.ServerCertificateCustomValidationCallback =
+            HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
+    }
+    return handler;
+});
 
 builder.CreateUmbracoBuilder()
     .AddBackOffice()

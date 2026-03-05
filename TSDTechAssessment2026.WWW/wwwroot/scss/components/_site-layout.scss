@@ -1,0 +1,43 @@
+@use '../utils/variables' as *;
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    color: $color-text;
+    background: #f8f9fa;
+    margin: 0;
+}
+
+.site-header {
+    background: $color-white;
+    border-bottom: 1px solid $color-border;
+    padding: $spacing-large 0;
+
+    &__title {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $color-text;
+    }
+
+    &__subtitle {
+        margin: $spacing-small 0 0;
+        color: #777;
+        font-size: $font-size-large;
+    }
+}
+
+.site-footer {
+    background: $color-white;
+    border-top: 1px solid $color-border;
+    padding: $spacing-medium 0;
+    margin-top: $spacing-large;
+    text-align: center;
+    color: #777;
+    font-size: $font-size-small;
+
+    p {
+        margin: 0;
+    }
+}

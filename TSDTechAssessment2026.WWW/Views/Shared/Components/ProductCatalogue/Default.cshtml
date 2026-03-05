@@ -1,0 +1,97 @@
+@model List<TSDTechAssessment2026.WWW.Models.Product>
+
+@if (Model is null || Model.Count == 0)
+{
+    <p class="product-catalogue__empty">No products available at this time.</p>
+    return;
+}
+
+<section class="product-catalogue">
+    <div class="product-catalogue__grid">
+        @foreach (var product in Model)
+        {
+            var cardClass = "product-card";
+            if (product.IsInvalid)
+            {
+                cardClass += " product-card--invalid";
+            }
+            else if (product.IsOutOfStock)
+            {
+                cardClass += " product-card--out-of-stock";
+            }
+
+            <article class="@cardClass">
+                @if (product.IsInvalid)
+                {
+                    <span class="product-card__badge product-card__badge--unavailable">Unavailable</span>
+                }
+                else if (product.IsOutOfStock)
+                {
+                    <span class="product-card__badge product-card__badge--out-of-stock">Out of Stock</span>
+                }
+
+                <div class="product-card__image-wrapper">
+                    @if (product.Images.Count > 0)
+                    {
+                        var imagePath = product.Images[0].StartsWith("/images/")
+                            ? "/media" + product.Images[0]
+                            : product.Images[0];
+                        <img src="@imagePath"
+                             alt="@product.Name"
+                             class="product-card__image"
+                             loading="lazy" />
+                    }
+                    else
+                    {
+                        <div class="product-card__image-placeholder">
+                            <span>No Image</span>
+                        </div>
+                    }
+                </div>
+
+                <div class="product-card__content">
+                    <span class="product-card__category">@product.Category</span>
+                    <h3 class="product-card__name">@product.Name</h3>
+                    <p class="product-card__brand">@product.Brand</p>
+                    <p class="product-card__description">@product.Description</p>
+
+                    <div class="product-card__rating">
+                        @{
+                            var fullStars = (int)Math.Floor(product.Rating);
+                            var hasHalfStar = product.Rating - fullStars >= 0.3;
+                            var emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+                        }
+                        <span class="product-card__stars" aria-label="@product.Rating out of 5 stars">
+                            @for (var i = 0; i < fullStars; i++)
+                            {
+                                <span class="star star--full">&#9733;</span>
+                            }
+                            @if (hasHalfStar)
+                            {
+                                <span class="star star--half">&#9733;</span>
+                            }
+                            @for (var i = 0; i < emptyStars; i++)
+                            {
+                                <span class="star star--empty">&#9734;</span>
+                            }
+                        </span>
+                        <span class="product-card__review-count">(@product.ReviewCount)</span>
+                    </div>
+
+                    <div class="product-card__footer">
+                        <span class="product-card__price">
+                            &pound;@product.DisplayPrice.ToString("N2")
+                        </span>
+
+                        @if (product.Variants is { Count: > 0 })
+                        {
+                            <span class="product-card__variants">
+                                @product.Variants.Count(v => v.Active) variant@(product.Variants.Count(v => v.Active) != 1 ? "s" : "")
+                            </span>
+                        }
+                    </div>
+                </div>
+            </article>
+        }
+    </div>
+</section>

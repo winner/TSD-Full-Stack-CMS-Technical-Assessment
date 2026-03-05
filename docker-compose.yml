@@ -1,0 +1,30 @@
+services:
+  api:
+    build:
+      context: ./TSDTechAssessment2026.API
+      dockerfile: Dockerfile
+    ports:
+      - "5266:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+
+  www:
+    build:
+      context: ./TSDTechAssessment2026.WWW
+      dockerfile: Dockerfile
+    ports:
+      - "13894:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ProductApi__BaseUrl=http://api:8080
+      - ConnectionStrings__umbracoDbDSN=Data Source=/data/Umbraco.sqlite.db;Cache=Shared;Foreign Keys=True;Pooling=True
+      - ConnectionStrings__umbracoDbDSN_ProviderName=Microsoft.Data.Sqlite
+    volumes:
+      - umbraco-data:/data
+    depends_on:
+      - api
+
+volumes:
+  umbraco-data:

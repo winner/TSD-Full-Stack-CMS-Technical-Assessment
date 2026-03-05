@@ -1,0 +1,9 @@
+@using Umbraco.Cms.Core.Models.Blocks
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<BlockListItem>
+@{
+    var categoryFilter = Model?.Content.Value<string>("categoryFilter");
+}
+
+<div class="product-catalogue-block">
+    @await Component.InvokeAsync("ProductCatalogue", new { categoryFilter })
+</div>

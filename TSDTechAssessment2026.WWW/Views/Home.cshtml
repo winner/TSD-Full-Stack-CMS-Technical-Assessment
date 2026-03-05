@@ -1,0 +1,45 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels
+@using Umbraco.Extensions
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Model.Name - Product Catalogue</title>
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-header__title">@Model.Name</h1>
+            <p class="site-header__subtitle">Browse our full range of products</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            @{
+                var blocks = Model.Value<Umbraco.Cms.Core.Models.Blocks.BlockListModel>("contentBlocks");
+            }
+            @if (blocks?.Any() == true)
+            {
+                @await Html.PartialAsync("blocklist/default", blocks)
+            }
+            else
+            {
+                @await Component.InvokeAsync("ProductCatalogue")
+            }
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; @DateTime.Now.Year TSD Tech Assessment</p>
+        </div>
+    </footer>
+</body>
+</html>
